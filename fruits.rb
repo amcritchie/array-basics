@@ -13,6 +13,14 @@ while x < 6
 end
 puts '>'*40
 
-# puts ['a','b','c'].each {|elem|elem.upcase}
+# ret = ['a','b','c'].each {|elem|elem.upcase!}
+# puts(ret)
 
 puts fruits.map(&:upcase)
+
+puts '>'*40
+
+ # puts fruits.grep(/g/)
+
+puts fruits.select {|s| s.match 'g'}
+
